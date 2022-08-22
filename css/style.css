@@ -1,0 +1,142 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(black, #1a4f68, black);
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 100vh;
+    align-items:center;
+}
+.header{
+    width: 360px;
+    height: 69px;
+    background: linear-gradient(#082a3a,black);
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+    text-shadow: 1px 0.5px #000000, 1.2px 1.3px #ffffff;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    width: 360px;
+    height: 298px;
+    background: linear-gradient(black, #062736, black);
+    justify-content: space-between;
+    align-items: center;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+.center{
+    margin-top: 12px;
+}
+.progress-bar{
+    width: 360px;
+    height: 134px;
+    background: linear-gradient(black,#082a3a);
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    border-top: 1.5px solid #000000;
+    border-left: 1.5px solid #000000;
+    border-right: 1.5px solid #000000;
+}
+.band{
+    display: flex;
+    padding-top: 18px;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #00e6f6;
+    text-shadow: 1px 0.5px #00e6f6, 1.2px 1.3px #ffffff;
+}
+.title{
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    font-size: 14px;
+    color: #00e6f6;
+}
+.track-time{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.timer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.init{
+    width: 175px;
+    height: 0px;
+    border: 2px solid #00e6f6;
+    box-shadow: 0 0 12px #00e6f6;
+    border-radius:6px 0 0 6px;
+}
+.ending{
+    width: 106px;
+    height: 0px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 0 12px #00e6f6;
+    border-radius: 0 6px 6px 0;    
+}
+p{
+    font-size: 14px;
+    color: #00e6f6;
+    text-shadow: 0 4px 4px #00e6f6;
+}
+footer{
+    border-top: 1px solid #00e6f6;
+    width: 360px;
+    height: 134px;
+    background: #082a3a;
+    box-shadow: inset 0px 4px 5px -1px rgba(13, 180, 192, 0.397);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-left: 1.5px solid #000000;
+    border-right: 1.5px solid #000000;
+    border-bottom: 1.5px solid #000000;
+}
+a{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    background: #02161F;
+    border-radius: 50%;
+    box-shadow: 0 0 12px #00e6f6;
+}
+.previus{
+    width: 45px;
+    height: 45px;
+}
+.retrocede{
+    width: 45px;
+    height: 45px;
+}
+.play{
+    width: 70px;
+    height: 70px;
+}
+.adelanta{
+    width: 45px;
+    height: 45px;
+}
+.next{
+    width: 45px;
+    height: 45px;
+}
+a:hover{
+    box-shadow: 0 0 12px #abf8fd;
+    background: #0c5475;
+}
